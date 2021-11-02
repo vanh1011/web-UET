@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans",sans-serif;
+}
+body{
+
+}
+    
+#top-head{
+    background-color: #46A5E5;
+    
+    max-width: 100%;
+    position: relative;
+}
+
+.list-item{
+    margin: 0px 45px;
+    padding: 0px 15px;
+    
+}
+
+.list-item ul{
+    padding: 0px;
+    list-style: none;
+}
+.list-item a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    
+}
+.list-item a:hover{
+    color: white;
+}
+.list-top-head li{
+    display: inline-block;
+    border-left: 0.5px solid rgb(175, 175, 175);
+    padding: 11px 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+
+.search-top-head{
+    display: inline;
+    border-right: 0.5px solid rgb(175, 175, 175); 
+    position: relative;
+    right: 0px;
+    margin-left: 280px;
+
+}
+.search-top-head a{
+    padding: 0 15px;
+}
+
+#head{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #253B80;
+    position: relative;
+
+}
+#head img{
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+
+}
+.logo{
+    line-height: 100px;
+    padding: 0px;
+    height: 100px;
+
+}
+ #head ul  li{
+    border-right: 0.3px solid rgb(94, 93, 93);
+    
+ }
+.header{
+   
+    padding: 0px 15px;
+    margin: 0px 21px;
+    display: flex;
+    
+    
+}
+.header > ul{
+    list-style: none;
+    margin-top: 20px;
+    position: relative;
+    display: block;
+    
+    
+}
+.header li{
+    
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.header >ul a {
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    font-size: 14px;
+    line-height: 30px;
+    padding: 30px;
+
+}
+.header li:hover #gt-list,
+.header li:hover #dt-list,
+.header li:hover #sv-list,
+.header li:hover #kh-cn-list,
+.header li:hover #ts-list,
+.header li:hover #kv-list
+{
+    display: block;
+}
+#head .nav-list ul{
+
+    display: block;
+    background-color: rgba(0,0,0,.9);
+    
+    position: absolute;
+    top: 55px;
+    display:none;
+}
+
+.nav-list #gt-list{
+  
+
+
+}
+.nav-list li{
+
+    padding: 10px 20px;
+    display: block;
+    
+    font-weight: 400;
+    clear: both;
+    text-align: left;
+    
+}
+.nav-list li:hover {
+    
+       color: white;
+    background-color: #46A5E5 ;
+
+}
+.nav-list li a{
+    font-size: 13px;
+    line-height: 15px;
+    padding: 0px;
+    margin: 0px;
+    
+    
+    
+   
+}
+#content{
+
+}
+
+#event{
+
+}
+
+#slider{
+
+}
+
+#section{
+
+}
+
+#footer{
+
+}
